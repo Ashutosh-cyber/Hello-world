@@ -1,0 +1,30 @@
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Machine Learning Libraries
+scikit-learn>=1.1.0
+xgboost>=1.6.0
+lightgbm>=3.3.0
+
+# Imbalanced Learning
+imbalanced-learn>=0.9.0
+
+# Feature Importance and Explainability
+shap>=0.41.0
+
+# Statistical Analysis
+scipy>=1.9.0
+
+# Utilities
+joblib>=1.1.0
+pathlib2>=2.3.0
+
+# Optional: Jupyter notebook support (if running in notebooks)
+jupyter>=1.0.0
+ipython>=7.0.0
+
+# Optional: Progress bars and visualization enhancements
+tqdm>=4.64.0

@@ -1,0 +1,157 @@
+{
+  "dataset_info": {
+    "original_shape": [
+      9500,
+      53
+    ],
+    "processed_shape": [
+      9500,
+      50
+    ],
+    "class_distribution": {
+      "0": 8072,
+      "1": 1428
+    },
+    "features_count": 50
+  },
+  "best_model": {
+    "name": "Logistic Regression",
+    "test_performance": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    }
+  },
+  "all_models_performance": {
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    },
+    "XGBoost": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    },
+    "SVM": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    },
+    "LightGBM": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 0.9999999999999999
+    },
+    "Neural Network": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    }
+  },
+  "top_features": {
+    "permutation": [
+      {
+        "feature": "tx_amount_01",
+        "importance_mean": 0.0
+      },
+      {
+        "feature": "tx_amount_02",
+        "importance_mean": 0.0
+      },
+      {
+        "feature": "tx_amount_03",
+        "importance_mean": 0.0
+      },
+      {
+        "feature": "tx_amount_04",
+        "importance_mean": 0.0
+      },
+      {
+        "feature": "tx_amount_05",
+        "importance_mean": 0.0
+      },
+      {
+        "feature": "tx_amount_06",
+        "importance_mean": 0.0
+      },
+      {
+        "feature": "tx_amount_07",
+        "importance_mean": 0.0
+      },
+      {
+        "feature": "tx_amount_08",
+        "importance_mean": 0.0
+      },
+      {
+        "feature": "tx_amount_09",
+        "importance_mean": 0.0
+      },
+      {
+        "feature": "tx_amount_10",
+        "importance_mean": 0.0
+      }
+    ],
+    "shap": [
+      {
+        "feature": "behavioral_01",
+        "shap_importance": 0.732095163951409
+      },
+      {
+        "feature": "behavioral_05",
+        "shap_importance": 0.6283586429916574
+      },
+      {
+        "feature": "behavioral_03",
+        "shap_importance": 0.5970061581086714
+      },
+      {
+        "feature": "behavioral_07",
+        "shap_importance": 0.5800541688392327
+      },
+      {
+        "feature": "behavioral_02",
+        "shap_importance": 0.5750395842755414
+      },
+      {
+        "feature": "behavioral_04",
+        "shap_importance": 0.5495182948682934
+      },
+      {
+        "feature": "behavioral_10",
+        "shap_importance": 0.5385346685674659
+      },
+      {
+        "feature": "behavioral_08",
+        "shap_importance": 0.5185109316019496
+      },
+      {
+        "feature": "behavioral_06",
+        "shap_importance": 0.5134060472596463
+      },
+      {
+        "feature": "behavioral_09",
+        "shap_importance": 0.48136950157124764
+      }
+    ]
+  }
+}
